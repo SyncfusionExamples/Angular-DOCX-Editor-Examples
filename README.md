@@ -1,2 +1,49 @@
-# Angular-DOCX-Editor-Examples
-This repository provides examples of using the DOCX Editor component in Angular applications.
+# Syncfusion&reg; Angular DOCX Editor
+
+The Syncfusion<sup style="font-size:70%">&reg;</sup> [Angular DOCX Editor](https://www.syncfusion.com/docx-editor-sdk/angular-docx-editor) (Document Editor) is a feature-rich, user-interactive component that enables creating, editing, viewing, and printing Word documents with advanced formatting, editing capabilities, and broad support for document import and export formats.
+
+## Key Features
+
+* [Opens](https://help.syncfusion.com/document-processing/word/word-processor/angular/import) the native `Syncfusion Document Text (*.sfdt)` format documents in the client-side.
+* [Saves the documents](https://help.syncfusion.com/document-processing/word/word-processor/angular/export) in the client-side as `Syncfusion Document Text (*.sfdt)` and `Word document (*.docx)`.
+* Supports document elements like text, [image](https://help.syncfusion.com/document-processing/word/word-processor/angular/image), [table](https://help.syncfusion.com/document-processing/word/word-processor/angular/table), fields, [bookmark](https://help.syncfusion.com/document-processing/word/word-processor/angular/bookmark), [shapes](https://help.syncfusion.com/document-processing/word/word-processor/angular/shapes), [section](https://help.syncfusion.com/document-processing/word/word-processor/angular/section-format), [header and footer](https://help.syncfusion.com/document-processing/word/word-processor/angular/header-footer).
+* Supports the commonly used fields like [hyperlink](https://help.syncfusion.com/document-processing/word/word-processor/angular/link), page number, page count, and table of contents.
+* Supports formats like [text](https://help.syncfusion.com/document-processing/word/word-processor/angular/text-format), [paragraph](https://help.syncfusion.com/document-processing/word/word-processor/angular/paragraph-format), [bullets and numbering](https://help.syncfusion.com/document-processing/word/word-processor/angular/list-format), [table](https://help.syncfusion.com/document-processing/word/word-processor/angular/table-format) and [page settings](https://help.syncfusion.com/document-processing/word/word-processor/angular/section-format).
+* Provides support to create, edit, and apply [paragraph and character styles](https://help.syncfusion.com/document-processing/word/word-processor/angular/styles).
+* Provides support to [find and replace](https://help.syncfusion.com/document-processing/word/word-processor/angular/find-and-replace) text within the document.
+* Supports all the common editing and formatting operations along with [undo and redo](https://help.syncfusion.com/document-processing/word/word-processor/angular/history).
+* Provides support to [cut](https://help.syncfusion.com/document-processing/word/word-processor/angular/clipboard#cut), [copy](https://help.syncfusion.com/document-processing/word/word-processor/angular/clipboard#copy), and [paste](https://help.syncfusion.com/document-processing/word/word-processor/angular/clipboard#paste) rich text contents within the component. Also allows pasting simple text to and from other applications.
+* Provides support to insert, and edit [form fields](https://help.syncfusion.com/document-processing/word/word-processor/angular/form-fields).
+* Provides support to insert, and edit [comments](https://help.syncfusion.com/document-processing/word/word-processor/angular/comments).
+* Provides support to track the [inserted and deleted content](https://help.syncfusion.com/document-processing/word/word-processor/angular/track-changes).
+* Provides support to perform [spell checking](https://help.syncfusion.com/document-processing/word/word-processor/angular/spell-check) for any input text
+* Allows user interactions like [zoom](https://help.syncfusion.com/document-processing/word/word-processor/angular/scrolling-zooming#zooming), [scroll](https://help.syncfusion.com/document-processing/word/word-processor/angular/scrolling-zooming), select contents through touch, mouse, and keyboard.
+* Provides intuitive UI options like context menu, [dialogs](https://help.syncfusion.com/document-processing/word/word-processor/angular/dialog), and [navigation pane](https://help.syncfusion.com/document-processing/word/word-processor/angular/find-and-replace#options-pane).
+* Provides a [ribbon interface](https://help.syncfusion.com/document-processing/word/word-processor/angular/ribbon) similar to Microsoft Word, with tab-based commands for quick and intuitive access to features. 
+* [Localizes](https://help.syncfusion.com/document-processing/word/word-processor/angular/global-local) all the static text to any desired language.
+* Allows to create a lightweight Word viewer using module injection to view and [prints](https://help.syncfusion.com/document-processing/word/word-processor/angular/print) Word documents.
+* Provides a [server-side helper library](https://help.syncfusion.com/document-processing/word/word-processor/angular/web-services/core) to open the Word documents like DOCX, DOC, WordML, RTF, and Text, by converting it to SFDT file format.
+
+# Resources
+
+- **Product page:**   [Syncfusion® Javascript Word Processor](https://www.syncfusion.com/docx-editor-sdk/javascript-docx-editor) 
+
+- **Documentation:**   [Syncfusion® Word Processor](https://help.syncfusion.com/document-processing/word/word-processor/javascript-es5/overview) 
+
+- **Online demo:**   [Syncfusion® Word Processor - Demo](https://document.syncfusion.com/#/docx-editor-sdk) 
+
+# Support and feedback
+
+For any other queries, reach our [Syncfusion® support team](https://support.syncfusion.com/?utm_source=github&utm_medium=listing&utm_campaign=github-github-documenteditor-examples) or post the queries through the [community forums](https://www.syncfusion.com/forums?utm_source=github&utm_medium=listing&utm_campaign=github-github-documenteditor-examples). 
+
+Request new feature through [Syncfusion® feedback portal](https://www.syncfusion.com/feedback?utm_source=github&utm_medium=listing&utm_campaign=github-github-documenteditor-examples). 
+
+# License 
+
+This is a commercial product and requires a paid license for possession or use. Syncfusion's licensed software, including this component, is subject to the terms and conditions of [Syncfusion's EULA](https://www.syncfusion.com/license/studio/22.2.5/syncfusion_essential_studio_eula.pdf?utm_source=github&utm_medium=listing&utm_campaign=github-github-documenteditor-examples). You can purchase a license [here](https://www.syncfusion.com/sales/products?utm_source=github&utm_medium=listing&utm_campaign=github-github-documenteditor-examples) or start a free 30\-day trial [here](https://www.syncfusion.com/account/manage-trials/start-trials?utm_source=github&utm_medium=listing&utm_campaign=github-github-documenteditor-examples).
+
+# About Syncfusion&reg;
+
+Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion&reg; has more than 29,000 customers and more than 1 million users, including large financial institutions, Fortune 500 companies, and global IT consultancies.
+
+Today, we provide 1700+ components and frameworks for web ([Blazor](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [ASP.NET Core](https://www.syncfusion.com/aspnet-core-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [ASP.NET MVC](https://www.syncfusion.com/aspnet-mvc-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [ASP.NET WebForms](https://www.syncfusion.com/jquery/aspnet-webforms-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [Angular](https://www.syncfusion.com/angular-ui-components?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [React](https://www.syncfusion.com/react-ui-components?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [Vue](https://www.syncfusion.com/vue-ui-components?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), and [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)), mobile ([Xamarin](https://www.syncfusion.com/xamarin-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), and [JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [.NET MAUI](https://www.syncfusion.com/maui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)) and desktop development ([WinForms](https://www.syncfusion.com/winforms-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [WPF](https://www.syncfusion.com/wpf-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [WinUI](https://www.syncfusion.com/winui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), and [.NET MAUI](https://www.syncfusion.com/maui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)) a. We provide ready-to-deploy enterprise software for dashboards, reports, data integration, and big data processing. Many customers have saved millions in licensing fees by deploying our software.
