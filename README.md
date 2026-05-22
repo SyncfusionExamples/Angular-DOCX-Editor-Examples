@@ -26,11 +26,11 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> [Angular DOCX Editor](https
 
 # Resources
 
-- **Product page:**   [Syncfusion® Javascript Word Processor](https://www.syncfusion.com/docx-editor-sdk/javascript-docx-editor) 
+- **Product page:**   [Syncfusion® Angular Word Processor](https://www.syncfusion.com/docx-editor-sdk/angular-docx-editor) 
 
-- **Documentation:**   [Syncfusion® Word Processor](https://help.syncfusion.com/document-processing/word/word-processor/javascript-es5/overview) 
+- **Documentation:**   [Syncfusion® Angular Word Processor - Documentation](https://help.syncfusion.com/document-processing/word/word-processor/angular/overview) 
 
-- **Online demo:**   [Syncfusion® Word Processor - Demo](https://document.syncfusion.com/#/docx-editor-sdk) 
+- **Online demo:**   [Syncfusion® Word Processor - Online demo](https://document.syncfusion.com/#/docx-editor-sdk) 
 
 # Support and feedback
 
