@@ -30,7 +30,7 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> [Angular DOCX Editor](https
 
 - **Documentation:**   [Syncfusion® Angular Word Processor - Documentation](https://help.syncfusion.com/document-processing/word/word-processor/angular/overview) 
 
-- **Online demo:**   [Syncfusion® Word Processor - Online demo](https://document.syncfusion.com/#/docx-editor-sdk) 
+- **Online demo:**   [Syncfusion® Angular Word Processor - Online demo](https://document.syncfusion.com/#/docx-editor-sdk) 
 
 # Support and feedback
 
