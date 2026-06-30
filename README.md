@@ -1,4 +1,4 @@
-# Syncfusion&reg; Angular DOCX Editor
+# Syncfusion&reg; Angular DOCX Editor (Document Editor)
 
 The Syncfusion<sup style="font-size:70%">&reg;</sup> [Angular DOCX Editor](https://www.syncfusion.com/docx-editor-sdk/angular-docx-editor?utm_source=github&utm_medium=github&utm_campaign=github-angular-docx-editor-examples) (Document Editor) is a feature-rich, user-interactive component that enables creating, editing, viewing, and printing Word documents with advanced formatting, editing capabilities, and broad support for document import and export formats.
 
@@ -26,11 +26,11 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> [Angular DOCX Editor](https
 
 # Resources
 
-- **Product page:**   [Syncfusion® Angular Word Processor](https://www.syncfusion.com/docx-editor-sdk/angular-docx-editor?utm_source=github&utm_medium=listing&utm_campaign=github-angular-docx-editor-examples) 
+- **Product page:**   [Syncfusion® Angular DOCX Editor](https://www.syncfusion.com/docx-editor-sdk/angular-docx-editor?utm_source=github&utm_medium=listing&utm_campaign=github-angular-docx-editor-examples) 
 
-- **Documentation:**   [Syncfusion® Angular Word Processor - Documentation](https://help.syncfusion.com/document-processing/word/word-processor/angular/overview?utm_source=github&utm_medium=listing&utm_campaign=github-angular-docx-editor-examples) 
+- **Documentation:**   [Syncfusion® Angular DOCX Editor - Documentation](https://help.syncfusion.com/document-processing/word/word-processor/angular/overview?utm_source=github&utm_medium=listing&utm_campaign=github-angular-docx-editor-examples) 
 
-- **Online demo:**   [Syncfusion® Angular Word Processor - Online demo](https://document.syncfusion.com/demos/docx-editor/angular/#/tailwind3/document-editor/default?utm_source=github&utm_medium=listing&utm_campaign=github-angular-docx-editor-examples) 
+- **Online demo:**   [Syncfusion® Angular DOCX Editor - Online demo](https://document.syncfusion.com/demos/docx-editor/angular/#/tailwind3/document-editor/default?utm_source=github&utm_medium=listing&utm_campaign=github-angular-docx-editor-examples) 
 
 # Support and feedback
 
