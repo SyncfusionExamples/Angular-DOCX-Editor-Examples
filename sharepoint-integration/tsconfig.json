@@ -1,0 +1,13 @@
+{
+  "extends": "./node_modules/@microsoft/spfx-web-build-rig/profiles/default/tsconfig-base.json",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "useDefineForClassFields": false,
+    "skipLibCheck": true,
+    "paths": {
+      "@angular/*": ["./node_modules/@angular/*"],
+      "@syncfusion/*": ["./node_modules/@syncfusion/*"]
+    }
+  }
+}
