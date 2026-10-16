@@ -24,6 +24,18 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> [Angular DOCX Editor](https
 * Allows to create a lightweight Word viewer using module injection to view and [prints](https://help.syncfusion.com/document-processing/word/word-processor/angular/print?utm_source=github&utm_medium=listing&utm_campaign=github-angular-docx-editor-examples) Word documents.
 * Provides a [server-side helper library](https://help.syncfusion.com/document-processing/word/word-processor/angular/web-services/core?utm_source=github&utm_medium=listing&utm_campaign=github-angular-docx-editor-examples) to open the Word documents like DOCX, DOC, WordML, RTF, and Text, by converting it to SFDT file format.
 
+# Samples
+
+This repository hosts multiple standalone Angular samples that demonstrate different features of the Syncfusion<sup style="font-size:70%">&reg;</sup> Angular DOCX Editor. Each sample is a self-contained Angular workspace in its own folder.
+
+| Sample | Folder | Description |
+| --- | --- | --- |
+| Getting started | [`getting-started/`](./getting-started) | Bootstraps a basic Angular application with a single Document Editor container. |
+| SharePoint integration | [`sharepoint-integration/`](./sharepoint-integration) | SPFx web part that hosts the Document Editor in a SharePoint workbench. |
+| Side by Side Comparison | [`Side-by-Side-Comparison/`](./Side-by-Side-Comparison) | Compare two Word documents side-by-side with tracked changes via the hosted Document Editor service. |
+
+---
+
 # Resources
 
 - **Product page:**   [Syncfusion® Angular DOCX Editor](https://www.syncfusion.com/docx-editor-sdk/angular-docx-editor?utm_source=github&utm_medium=listing&utm_campaign=github-angular-docx-editor-examples) 

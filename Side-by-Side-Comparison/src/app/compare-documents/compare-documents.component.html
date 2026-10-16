@@ -1,0 +1,166 @@
+<div class="control-pane">
+  <div class="control-section" style="width: 100%">
+    <!-- Shared Container -->
+    <div class="compare-header">
+      <!-- Upload Row -->
+      <div class="upload-row">
+        <!-- Original -->
+        <div class="upload-card">
+          <div class="upload-card-top">
+            <span>Original document</span>
+            <label class="choose-file-btn">
+              Choose file
+              <input
+                type="file"
+                class="file-input"
+                accept=".docx,.sfdt"
+                (change)="onOriginalFileChange($event)" />
+            </label>
+          </div>
+
+          <div class="upload-card-bottom">
+            <span>
+              @if (originalFile) {
+                {{ originalFile.name }} ({{ formatFileSize(originalFile) }} KB)
+              } @else {
+                Supported formats: SFDT, DOCX
+              }
+            </span>
+            @if (originalFile) {
+              <span
+                class="e-icons e-trash"
+                (click)="removeOriginalFile($event)"
+                title="Remove file">
+              </span>
+            }
+          </div>
+        </div>
+
+        <!-- Revised -->
+        <div class="upload-card">
+          <div class="upload-card-top">
+            <span>Revised document</span>
+            <label class="choose-file-btn">
+              Choose file
+              <input
+                type="file"
+                class="file-input"
+                accept=".docx,.sfdt"
+                (change)="onRevisedFileChange($event)" />
+            </label>
+          </div>
+
+          <div class="upload-card-bottom">
+            <span>
+              @if (revisedFile) {
+                {{ revisedFile.name }} ({{ formatFileSize(revisedFile) }} KB)
+              } @else {
+                Supported formats: SFDT, DOCX
+              }
+            </span>
+            @if (revisedFile) {
+              <span
+                class="e-icons e-trash"
+                (click)="removeRevisedFile($event)"
+                title="Remove file">
+              </span>
+            }
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls Row -->
+      <div class="controls-row">
+        <label class="compare-toggle">
+          <input
+            type="checkbox"
+            [checked]="showResult"
+            (change)="onShowResultChange($event)" />
+          Show comparison results with tracked changes
+        </label>
+
+        <div class="action-buttons">
+          <button
+            ejs-button
+            cssClass="e-primary"
+            (click)="onCompare()">
+            Compare
+          </button>
+          <button
+            ejs-button
+            cssClass="e-outline"
+            (click)="onDownload()">
+            Download Result Document
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Editors -->
+    <div class="editors-row">
+      <!-- Left editor: original -->
+      <div class="editor-pane">
+        <div class="editor-pane-title">Original document</div>
+        <div class="editor-host">
+          <ejs-documenteditorcontainer
+            #editor1
+            [serviceUrl]="serviceUrl"
+            height="100%"
+            width="100%"
+            [enableToolbar]="false"
+            [showPropertiesPane]="false">
+          </ejs-documenteditorcontainer>
+        </div>
+      </div>
+
+      <!-- Right editor: compared / revised -->
+      <div class="editor-pane">
+        <div class="editor-pane-title--right">
+          <div class="editor-pane-title-label">
+            {{
+              showResult
+                ? 'Result Document (with tracked changes)'
+                : 'Revised Document'
+            }}
+          </div>
+          @if (showResult) {
+            <button
+              ejs-button
+              class="e-de-ctn-title"
+              title="Show/Hide Revisions Pane"
+              (click)="toggleRevisionPane()">
+              <span class="e-icons e-eye"></span>
+              {{ showRevisions ? ' Hide Review Pane' : ' Show Review Pane' }}
+            </button>
+          }
+        </div>
+
+        <div class="editor-host">
+          <ejs-documenteditorcontainer
+            #editor2
+            [serviceUrl]="serviceUrl"
+            height="100%"
+            width="100%"
+            [enableToolbar]="false"
+            [showPropertiesPane]="false">
+          </ejs-documenteditorcontainer>
+        </div>
+      </div>
+    </div>
+
+    <!-- Loading Progress -->
+    <div class="overlay" id="popup-overlay"></div>
+    <div id="waiting-popup">
+      <svg class="circular" height="40" width="40">
+        <circle
+          class="circle-path"
+          cx="25"
+          cy="25"
+          r="20"
+          fill="none"
+          strokeWidth="6"
+          strokeMiterlimit="10" />
+      </svg>
+    </div>
+  </div>
+</div>
