@@ -1,9 +1,7 @@
-import { Component, ViewChild, ViewEncapsulation } from '@angular/core';
+import { Component } from '@angular/core';
 import {
     DocumentEditorContainerModule,
-    DocumentEditorContainerComponent,
-    ToolbarService,
-    RibbonService
+    ToolbarService
 } from '@syncfusion/ej2-angular-documenteditor';
 
 @Component({
@@ -13,33 +11,17 @@ import {
     template: `
     <!-- Use the following service URL only for demo purposes -->
     <ejs-documenteditorcontainer
-        #documenteditor_default
         serviceUrl="https://document.syncfusion.com/web-services/docx-editor/api/documenteditor/"
         height="590px"
         style="width:100%;display:block"
         [enableToolbar]="true"
         [enableWebMcp]="true"
-        toolbarMode="Ribbon"
-        [webMcpSettings]="webMcpSettings"
-        (created)="created()">
+        [webMcpSettings]="webMcpSettings">
     </ejs-documenteditorcontainer>
 `,
-    encapsulation: ViewEncapsulation.None,
-    providers: [ToolbarService, RibbonService]
+    providers: [ToolbarService]
 })
 export class App {
-
-    @ViewChild('documenteditor_default')
-    public container!: DocumentEditorContainerComponent;
-
-    public webMcpTools: any[] = [];
-
-    public documentEditorSettings: any = {
-        showRuler: true,
-        showBookmarks: true,
-        showHiddenMarks: true
-    };
-
     public webMcpSettings: any = {
         name: 'container'
     };
