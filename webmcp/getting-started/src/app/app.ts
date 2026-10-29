@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import {
     DocumentEditorContainerModule,
-    ToolbarService
+    ToolbarService,
+    RibbonService
 } from '@syncfusion/ej2-angular-documenteditor';
 
 @Component({
@@ -15,11 +16,12 @@ import {
         height="590px"
         style="width:100%;display:block"
         [enableToolbar]="true"
+        [toolbarMode]="'Ribbon'" 
         [enableWebMcp]="true"
         [webMcpSettings]="webMcpSettings">
     </ejs-documenteditorcontainer>
 `,
-    providers: [ToolbarService]
+    providers: [ToolbarService, RibbonService]
 })
 export class App {
     public webMcpSettings: any = {
