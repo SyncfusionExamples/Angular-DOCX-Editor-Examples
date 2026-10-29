@@ -1,4 +1,4 @@
-# Syncfusion&reg; Angular DOCX Editor (Document Editor) — WebMCP Example
+# WebMCP Example - Syncfusion&reg; Angular DOCX Editor (Document Editor)
 
 This example demonstrates how to enable the **WebMCP** (Model Context Protocol over the web) settings in the Syncfusion<sup style="font-size:70%">&reg;</sup> Angular DOCX Editor (Document Editor) container component. When WebMCP is enabled, the Document Editor exposes its capabilities (such as opening, editing, saving, and formatting Word documents) as MCP tools, so AI assistants and agents connected through MCP can interact with the document editor programmatically.
 
@@ -6,9 +6,6 @@ This example demonstrates how to enable the **WebMCP** (Model Context Protocol o
 
 * Demonstrates enabling WebMCP support in the Document Editor container using the `enableWebMcp` property.
 * Configures the WebMCP integration using the `webMcpSettings` property (e.g. the MCP server name exposed to connected agents).
-* Uses the `Ribbon` toolbar mode (`toolbarMode="Ribbon"`) similar to Microsoft Word, with tab-based commands for quick and intuitive access to features.
-* Opens and edits Word documents through the Syncfusion® Document Editor web service (`serviceUrl`), which converts DOCX and other formats to the native `Syncfusion Document Text (*.sfdt)` format in the client-side.
-* Provides all the core Document Editor capabilities — creating, editing, viewing, and printing Word documents with advanced formatting, editing capabilities, and broad support for document import and export formats.
 * Allows AI agents connected through MCP to perform document operations such as inserting content, applying formatting, and managing document elements programmatically.
 
 # Resources
