@@ -32,7 +32,7 @@ This repository hosts multiple standalone Angular samples that demonstrate diffe
 | --- | --- | --- |
 | Getting started | [`getting-started/`](./getting-started) | Bootstraps a basic Angular application with a single Document Editor container. |
 | SharePoint integration | [`sharepoint-integration/`](./sharepoint-integration) | SPFx web part that hosts the Document Editor in a SharePoint workbench. |
-| Side by Side Comparison | [`Side-by-Side-Comparison/`](./Side-by-Side-Comparison) | Compare two Word documents side-by-side with tracked changes via the hosted Document Editor service. |
+| Side by Side Comparison | [`side-by-side-comparison/`](./side-by-side-comparison) | Compare two Word documents side-by-side with tracked changes via the hosted Document Editor service. |
 
 ---
 
