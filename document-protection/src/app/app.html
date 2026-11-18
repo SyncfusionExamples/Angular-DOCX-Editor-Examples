@@ -1,0 +1,57 @@
+<div class="sample-header">
+  <h1>User based restrict editing and approval workflow in Angular DOCX Editor</h1>
+  <p>
+    Select a user to switch between role-based editing restrictions: price-only editing with editable
+    ranges, tracked changes review, comments-only review, full editing and read-only access.
+  </p>
+</div>
+<div class="sample-toolbar">
+  <div class="permission-holder">
+    <table class="permission-table">
+      <thead>
+        <tr>
+          <th>User</th>
+          <th>Role</th>
+          <th>Email</th>
+          <th>Permissions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{ user.name }}</td>
+          <td>{{ user.role }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.description }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="sample-toolbar">
+  <label for="userSelect">Signed in user:</label>
+  <select
+    id="userSelect"
+    [(ngModel)]="selectedUserEmail"
+    (change)="onUserChange()"
+    title="Choose the user whose permissions are applied">
+    <option *ngFor="let user of users" [value]="user.email">
+      {{ user.name }}
+    </option>
+  </select>
+  <span id="permissionBanner" class="permission-banner">
+    Signed in as {{ currentUser.name }} ({{ currentUser.email }}) - {{ currentUser.role }}
+  </span>
+</div>
+<div class="sample-content">
+  <div class="editor-holder">
+    <ejs-documenteditorcontainer
+      #documentEditorContainer
+      serviceUrl="https://document.syncfusion.com/web-services/docx-editor/api/documenteditor/"
+      height="590px"
+      style="display: block"
+      [enableToolbar]="true"
+      toolbarMode="Ribbon"
+      (created)="onCreated()">
+    </ejs-documenteditorcontainer>
+  </div>
+</div>
